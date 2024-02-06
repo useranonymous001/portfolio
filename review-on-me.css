@@ -1,0 +1,120 @@
+#review-on-me{
+    /* background-color: #e2e2e2; */
+    background-color: #c2c0c0;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-margin-top: 4rem;
+    border-radius: 74% 26% 30% 70% / 51% 55% 45% 49%  ;
+}
+
+
+.review-portion-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: #e2e2e2;
+    /* padding-top: 4rem; */
+}
+.org-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    padding: 2%;
+}
+.org-title img{
+    width: 3rem;
+}
+.org-title p{
+    font-size: clamp(1rem, 2.2rem, 4rem);
+}
+.review-des{
+    padding: 1%;
+    width: 65%;
+
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+}
+
+.safeguard-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: grey;
+}
+.service-title{
+    font-size: clamp(1rem, 2.2rem, 4rem);;
+    font-weight: bold;
+    padding: 4% 0 0 4%;
+    color: whitesmoke;
+}
+.services-info{
+    font-size: 80%;
+    font-family: sans-serif;
+    /* padding: 1%; */
+    padding: 1% 0 0 4%;
+    color: rgb(236, 235, 233);
+}
+
+.safeguard-buttons{
+    padding: 3% 0 4% 4%;
+    display: flex;
+    gap: 1rem;
+
+}
+.contact-button{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 0.6rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.contact-button:hover{
+    background-color: rgb(195, 193, 193);
+    color: black;
+}
+.get-button{
+    background-color: transparent;
+    color: black;
+    border: 1px solid white;
+    padding: 0.6rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.get-button:hover{
+    color: white;
+    border: 1px solid black;
+}
+.reviewer{
+    display: flex;
+    /* background-color: red; */
+    flex-direction: column;
+    padding:3% 0 2% 0;
+    justify-content: center;
+    align-items: center;
+}
+.john-image{
+    background-color: green;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 2.5rem;
+}
+.john-image img{
+    width: 100%;
+    border-radius: 2.5rem;
+    object-fit: contain;
+    object-position: center;
+}
+.reviewer-name{
+    padding-top: 0.9rem;
+}
+.reviewer-position{
+    font-family: "Roboto";
+    font-size: 80%;
+}

@@ -1,0 +1,144 @@
+#project-section{
+    background-color: #c2c0c0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    scroll-margin-top: 4rem;
+    border-radius:69% 31% 33% 67% / 49% 49% 51% 51% ;
+}
+
+.project-header{
+    /* padding: 2%; */
+    /* background-color: red; */
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-header p{
+    display: block;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    /* text-transform: uppercase; */
+    font-family: "Roboto";
+    /* background-color: red; */
+}
+.project-des{
+    /* background-color: red; */
+    font-family: "Roboto";
+    font-size: 85%;
+    padding: 2%;
+}
+.project-grid-container{
+    display: grid;
+    /* background-color: red; */
+    gap: 1.5rem;
+    width: 80%;
+    padding: 1%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-content: center;
+}
+.grid{
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    /* border-radius: 63% 37% 53% 47% / 50% 4% 96% 50% ; */
+    transition: 0.3s;
+}
+.grid:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+.grid-image{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-image img{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    /* background-color: white; */
+}
+.project-info-div{
+    padding: 2%;
+    /* background-color: red; */
+
+
+}
+.project-title{
+    font-size: 1.1rem;
+    text-align: center;
+}
+.project-details{
+    font-size: 75%;
+    font-family: "Roboto";
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+.tags{
+    font-size: 75%;
+    font-family: "Roboto";
+    display: inline;
+    background-color: rgb(195, 221, 230);
+    padding: 1% 2% 1% 2%;
+    border-radius: 1px;
+    cursor: pointer;
+
+}
+.tags:hover{
+    background-color: rgb(134, 205, 229);
+}
+.view-button{
+    display: block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 6%;
+    padding: 1% 2% 1% 2%;
+    font-size: 75%;
+    font-family: "Roboto";
+
+}
+.view-button:hover{
+    text-decoration: underline;
+}
+.project-endline{
+    background-color: #f3f3f3;
+    width: 80%;
+    display: flex;
+    gap: 1%;
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+}
+.project-endline p{
+    display: block;
+    /* text-align: center; */
+    font-size: 80%;
+    line-height: 110%;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.fa{
+    margin-bottom: 8px;
+    padding: 0.3rem;
+    width: 1rem;
+    text-align: center;
+    border-radius: 10rem;
+    color: black;
+    background-color: black;
+    color: white;
+}
+.project-endline a{
+    list-style: none;
+    text-decoration: none;
+}

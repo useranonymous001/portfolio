@@ -1,0 +1,133 @@
+
+#contact-section{
+    /* border-radius: 41% 59% 66% 34% / 45% 47% 53% 55%  ; */
+    background-color: #c2c0c0;
+    /* display: flex; */
+    scroll-margin-top: 4rem;
+    padding: 2% 0 3% 0;
+    border-radius: 64% 36% 70% 30% / 30% 30% 70% 70% ;
+}
+.get-introduced{
+  /* background-color: red; */
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+.get-introduced p{
+  font-size: 2.5rem;
+  padding: 1% 0 1% 0;
+}
+.contact-form-container{
+    display: flex;
+    width: 70%;
+    background-color: #fff;
+    margin: auto;
+    flex-basis: 1;
+}
+.image-box{
+    width: 80%;
+}
+.image-box img{
+    object-fit: contain;
+}
+.form-fill-up{
+    background-color: #f2f2f2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+label{
+  font-size: 1.1rem;
+  /* width: 95%; */
+}
+.your-detail{
+  padding: 2.5% 2% 2.5% 4% ;
+  border-radius: 1rem;
+  margin: 0.5rem 0;
+  border: 1px solid #dcd7d7;
+}
+.your-detail:focus{
+  outline: none;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.your-detail::placeholder{
+  padding: 1%;
+}
+textarea{
+    height: 95%;
+    background-color: #ffffff;
+    border: 1px solid #dcd7d7;
+    resize: none;
+    width: 95%;
+    border: none;
+    padding: 1rem 0 0 1rem;
+}
+textarea:focus{
+  outline: none;
+  /* box-shadow: box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);; */
+}
+
+.submit{
+  /* background-color: red; */
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-submit {
+    font-family: inherit;
+    font-size: 20px;
+    background: royalblue;
+    color: white;
+    padding: 0.6em 0.8em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+  
+  .contact-submit span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contact-submit svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .contact-submit:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+  }
+  
+  .contact-submit:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+  }
+  
+  .contact-submit:hover span {
+    transform: translateX(5em);
+  }
+  
+  .contact-submit:active {
+    transform: scale(0.95);
+  }
+  
+  @keyframes fly-1 {
+    from {
+      transform: translateY(0.1em);
+    }
+  
+    to {
+      transform: translateY(-0.1em);
+    }
+  }
+  

@@ -1,0 +1,127 @@
+/* #nav-bar-section{
+    display: flex;
+    flex-shrink:1 ;
+    flex-grow: 1;
+    flex-basis: auto;
+    flex-wrap: wrap;
+} */
+@media (max-width: 900px){
+    .nav-bar{
+        display: flex;
+        font-size: 14px;
+        flex-grow: 1 1 1;
+    }
+}
+@media (max-width: 800px){
+    .middle-section{
+        flex-shrink: 1;
+    }
+}
+@media (max-width:900px){
+    .middle-section ul{
+        display: flex;
+        flex-direction: column;
+        flex: auto;
+        font-size: 13px;
+        gap: 0.4rem;
+    }
+}
+@media (max-width:850px){
+    .middle-section ul{
+        gap: 0.5rem;
+        font-size: 13px;
+    }
+}
+#nav-bar-section{
+    background-color: white;
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    flex-grow: 1;
+    flex-basis: auto;
+    width: 100%;
+    background-color: white;
+    gap: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+.left-section{
+    display: flex;
+    flex-basis: auto;
+}
+
+.middle-section{
+    display: flex;
+    flex-grow: auto;
+    justify-content: center;
+    flex-basis: auto;
+}
+.middle-section ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+.middle-section ul li a{
+    text-decoration: none;
+    /* box-sizing: border-box; */
+    color: black;
+    transition: transform 0.4s;
+}
+.middle-section ul li a::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: 0.4s;
+    margin: auto;
+}
+.middle-section ul li a:hover::after{
+    width: 100%;
+}
+.middle-section ul li a:hover{
+    opacity: 0.7;
+}
+
+.right-section{
+    display: flex;
+    flex-basis: auto;
+    flex-shrink: 1;
+    gap: 0.7rem;
+    justify-content: space-evenly;
+}
+.sign-up-button{
+    display: block;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+.sign-up-button:hover{
+    color: rgb(40, 38, 38);
+    box-shadow: rgba(0,0,0,0.1) 0px 0px 0px 1px;
+}
+
+.Login-button {
+    display: block;
+    padding: 0.5rem 1rem;
+    border: 1px solid rgb(18, 16, 16);
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+.Login-button:hover{
+    background-color: black;
+    color: white;
+}
